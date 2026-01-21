@@ -1,14 +1,14 @@
 .empy{  
-    padding-bottom: 40px;
+    padding-bottom: 5px;
 }
 .login-box{
-    width: 300px;
+    width: 400px;
     margin: 100px 100px;
     padding: 30px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
-    width: 80%;
+    width: 60%;
     max-width: 400px;
     padding: 20px;
     background: #ffffff;
@@ -57,14 +57,14 @@
 }
 .forgot-password{
     margin-top: 10px;
-    text-align: right;
+    text-align: center;
     font-size: 12px;
     color: #007BFF;
     text-decoration: none;
 
 }
 .sign-up{
-    margin-top: 15px;
+    margin-top: 1px;
     font-size: 14px;
     color: #007BFF;
     text-decoration: none;
@@ -84,7 +84,7 @@
   
 }
 .empy2{  
-    padding-bottom: 120px;
+    padding-bottom: 20px;
 }
 label {
   font-size: 13px;
@@ -101,4 +101,37 @@ body {
   background-attachment: fixed;
   height: 100vh;
   font-family: roboto, sans-serif;
+}
+.sr-only{
+     text-align: left;
+}
+.boxloginbackground {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* INPUTS */
+.boxloginbackground input {
+    width: 100%;
+    padding: 12px 15px;
+
+    background-color: #f2f2f2;      /* fondo gris */
+    border: 1px solid #dcdcdc;      /* contorno gris */
+    border-radius: 25px;
+
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* EFECTO AL FOCUS */
+.boxloginbackground input:focus {
+    background-color: #ffffff;
+    border-color: #b38a1b;
+}
+
+/* PLACEHOLDER */
+.boxloginbackground input::placeholder {
+    color: #999;
 }
